@@ -27,3 +27,16 @@ const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 if (isMobile) {
   $(".middle_division .header aside").append('<a href="javascript:void(0)" title="Create Community"><iconify-icon icon="ri:advertisement-line"></iconify-icon></a>');
 }
+
+var msgCookies = document.getElementById('cookies-msg');
+
+function aceito(){
+    localStorage.lgdp = "sim"
+    msgCookies.classList.remove('mostrar')
+}
+
+if(localStorage.lgdp == "sim"){
+    msgCookies.classList.remove('mostrar')
+}else{
+    msgCookies.classList.add('mostrar')
+}

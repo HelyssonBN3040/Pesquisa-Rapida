@@ -1,3 +1,5 @@
+@import url('https://font.googleapis.com/css2?family=Poppins&display=swap');
+
 /***************************
         MAIN.CSS
 ****************************/
@@ -888,6 +890,47 @@ footer .footer-main .footer-content .footer-1 .footer-1-copyright a {
     text-decoration: none;
     color: #6e6f6e;
     font-weight: 600;
+}
+
+.cookies-msg{
+    width: 80%;
+    background-color: #e9e9e9;
+    position: fixed;
+    bottom: 5%;
+    left:50%;
+    transform: translate(-50%);
+    border-radius: 15px;
+    display: none;
+}
+.cookies-msg.mostrar{
+    display: block;
+}
+.cookies-msg .cookies-txt{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+
+}
+.cookies-msg .cookies-btn{
+    margin-left: 30px;
+
+}
+.cookies-msg .cookies-btn button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.cookies-msg .cookies-btn button:hover{
+    transform: scale(0.9);
+}
+.cookies-txt p{
+    color: black;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media only screen and (max-width: 900px) {
