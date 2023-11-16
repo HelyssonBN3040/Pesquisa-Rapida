@@ -927,6 +927,7 @@ footer .footer-main .footer-content .footer-1 .footer-1-copyright a {
 .cookies-msg .cookies-btn button:hover{
     transform: scale(0.9);
 }
+
 .cookies-txt p{
     color: black;
     line-height: 1.5em;
@@ -959,6 +960,13 @@ footer .footer-main .footer-content .footer-1 .footer-1-copyright a {
     footer .footer-main .footer-content .footer-2 .footer-f1,
     footer .footer-main .footer-content .footer-2 .footer-f2 {
         width: 100%;
+    }
+    .cookies-msg .cookies-btn {
+        margin-left: 0;
+    }
+    
+    .cookies-msg .cookies-txt {
+        flex-direction: column;
     }
 }
 
