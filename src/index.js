@@ -28,6 +28,7 @@ if (isMobile) {
   $(".middle_division .header aside").append('<a href="javascript:void(0)" title="Create Community"><iconify-icon icon="ri:advertisement-line"></iconify-icon></a>');
 }
 
+//Cookies e Privacidade
 var msgCookies = document.getElementById('cookies-msg');
 
 function aceito(){
