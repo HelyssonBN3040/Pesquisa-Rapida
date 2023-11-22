@@ -566,44 +566,7 @@ main .right_division {
     margin: 2vh auto;
 }
 
-@media (max-width:920px) {
-    .middle_division .header fieldset img {
-        width: 30px;
-        height: 30px;
-    }
 
-    .middle_division .header fieldset .dot {
-        bottom: 3px;
-        right: 1px;
-    }
-
-    .middle_division .header fieldset aside a {
-        padding: 0.2rem 0rem;
-        margin: 0;
-    }
-
-    .middle_division .header fieldset aside a:not(:last-child) {
-        margin-right: 1rem !important;
-    }
-
-    .middle_division .header fieldset aside a:hover {
-        background-color: transparent;
-        color: var(--primary);
-    }
-
-    .middle_division .header fieldset aside .active {
-        background-color: transparent;
-        color: var(--primary);
-    }
-
-    .middle_division .header fieldset aside a:not(:last-child) {
-        margin-right: 3px;
-    }
-
-    .middle_division .header fieldset aside a b {
-        display: none;
-    }
-}
 
 /*post card*/
 .post_card {
@@ -796,6 +759,10 @@ main .right_division {
     background-color: #151515;
     padding: 80px 0;
 }
+small{
+    color: white;
+    padding: 0 15px;
+}
 
 .container {
     max-width: 1200px;
@@ -805,6 +772,7 @@ main .right_division {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul {
@@ -875,14 +843,16 @@ ul {
 }
 
 @media(max-width: 767px) {
-    .footer-col {
+    .footer-col ,
+    small{
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
 @media(max-width: 574px) {
-    .footer-col {
+    .footer-col ,
+    small{
         width: 100%;
     }
 }

@@ -21,7 +21,6 @@ $(".more").click(function(e){
 });
 
 
-
 //Detect Mobile device
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 if (isMobile) {
