@@ -758,6 +758,9 @@ main .right_division {
 .footer-2-2-3-links img {
     width: 25px;
 }
+.img-footer{
+    width: 50px;
+}
 
 @media (max-width:920px) {
     .post_card .content {
