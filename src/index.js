@@ -21,9 +21,6 @@ $(".more").click(function(e){
 });
 
 
-//Detect Mobile device
-
-
 //Cookies e Privacidade
 var msgCookies = document.getElementById('cookies-msg');
 
