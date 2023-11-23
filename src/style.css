@@ -172,10 +172,8 @@ ul li {
     margin: 0;
 }
 
-.flex,
-.fixed_flex {
+.flex {
     display: flex;
-    justify-content: space-between;
 }
 
 .middle_division .header fieldset .img-logo{
@@ -551,7 +549,8 @@ main .right_division {
 }
 .middle_division .header fieldset {
     width: 100%;
-    justify-content:center;
+    display: flex;
+    justify-content:space-evenly;
     padding: 0.5rem 1rem;
     margin: 0;
     border-radius: 5px;
