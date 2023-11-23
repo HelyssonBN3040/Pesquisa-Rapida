@@ -57,9 +57,9 @@ body {
     font-family: var(--default_font);
 }
 .search-box{
-    background: #09d408;
+    background: #ff6600;
     height: 40px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -71,8 +71,9 @@ body {
     outline: none;
     padding: 0;
     color: white;
-    font-size:16px;
-    line-height: 40px;
+    font-size:13px;
+    font-weight: bold;
+    line-height: 30px;
     width: 0;
     transition: .5s;
 
@@ -81,7 +82,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #09d408;
+    background:#ff6600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +91,7 @@ body {
 
 }
 .search-box:hover > .search-txt{
-    width: 240px;
+    width: 100px;
     padding: 0 6px;
 }
 .search-box:hover > .search-button{
@@ -367,15 +368,6 @@ ul li {
 ****************************/
 
 
-/*dot*/
-.dot {
-    width: 11px;
-    height: 11px;
-    border: 2px solid var(--white);
-    border-radius: 50%;
-    background-color: #09d408;
-}
-
 /***************************
         DEFAULT
 ****************************/
@@ -590,10 +582,6 @@ main .right_division {
 
 .middle_division .header fieldset aside a iconify-icon {
     font-size: 20px;
-}
-
-.middle_division .header fieldset aside a:not(:last-child) {
-    margin-right: 5px;
 }
 
 .middle_division .header fieldset aside .active {
