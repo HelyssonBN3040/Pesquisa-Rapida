@@ -22,10 +22,7 @@ $(".more").click(function(e){
 
 
 //Detect Mobile device
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (isMobile) {
-  $(".middle_division .header aside").append('<a href="javascript:void(0)" title="Create Community"><iconify-icon icon="ri:advertisement-line"></iconify-icon></a>');
-}
+
 
 //Cookies e Privacidade
 var msgCookies = document.getElementById('cookies-msg');
