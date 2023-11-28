@@ -184,7 +184,7 @@ ul li {
 }
 
 .blog-grid .control img {
-    width: 10px;
+    width: 20px;
 
 }
 
@@ -192,12 +192,11 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     object-fit: cover;
-    margin: 10px;
-    background-color: #000028;
+    margin: 13px;
     border-radius: 50%;
 }
 
@@ -343,11 +342,7 @@ ul li {
     .blog-grid {
         flex-direction: row;
     }
-
-    .blog-grid .control {
-        width: 60px;
-        height: 30px;
-    }
+    
 
     .slider {
 
@@ -1087,6 +1082,7 @@ ul {
 }
 
 @media only screen and (max-width: 1150px) {
+   
     section {
         flex-direction: column;
         align-items: center;
