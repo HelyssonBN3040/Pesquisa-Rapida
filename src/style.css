@@ -29,7 +29,6 @@ html {
     --primary_lite: #fe8118;
     --secondary: #3399ff;
     --secondary_dark: #0079d3;
-    --default_font: 'Ysabeau Infant', sans-serif;
     --title_font: 'Outfit', sans-serif;
 }
 
@@ -54,7 +53,7 @@ html {
 body {
     margin: 0;
     overflow-x: hidden;
-    font-family: var(--default_font);
+    font-family:sans-serif;
 }
 
 .search-box {
@@ -1037,6 +1036,8 @@ small {
 
 .blog-img img {
     width: 300px;
+    border-radius: 5px;
+    margin: 10px 0;
 
 }
 
