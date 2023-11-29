@@ -167,10 +167,7 @@ label input {
     display: none;
 }
 
-ul li {
-    list-style: none;
 
-}
 
 .title,
 .sub_title {
@@ -850,12 +847,10 @@ small {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+.cont-text{
+    text-align: justify;
 }
+
 
 .footer-col {
     width: 25%;
