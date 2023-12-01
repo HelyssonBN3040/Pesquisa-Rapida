@@ -204,8 +204,8 @@ label input {
     align-items: center;
 }
 
-.middle_division .header fieldset .img-logo {
-    width: 30px;
+ .img-logo {
+    width: 20px;
 }
 
 .flex_content {
@@ -560,15 +560,13 @@ main .right_division {
 ****************************/
 
 /*header*/
-.header {
-    display: flex;
-    justify-content: center;
-}
 
-.middle_division .header fieldset {
+
+.middle_division .nav fieldset {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 0.5rem 1rem;
     margin: 0;
     border-radius: 5px;
@@ -577,8 +575,8 @@ main .right_division {
     position: relative;
 }
 
-.middle_division .header fieldset aside,
-.middle_division .header fieldset aside a {
+.middle_division .nav fieldset aside,
+.middle_division .nav fieldset aside a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -588,43 +586,43 @@ main .right_division {
     font-family: var(--title_font);
 }
 
-.middle_division .header fieldset aside a {
+.middle_division .nav fieldset aside a {
     margin: 6px;
 }
 
-.middle_division .header fieldset aside a b {
+.middle_division .nav fieldset aside a b {
     font-weight: 500;
     color: white;
 }
 
-.middle_division .header fieldset a {
+.middle_division .nav fieldset a {
     position: relative;
 }
 
-.middle_division .header fieldset aside a:hover {
+.middle_division .nav fieldset aside a:hover {
     background-color: #f1f1f1;
 
 }
 
-.middle_division .header fieldset aside a b:hover {
+.middle_division .nav fieldset aside a b:hover {
     color: black;
 }
 
-.middle_division .header fieldset aside a iconify-icon {
+.middle_division .nav fieldset aside a iconify-icon {
     font-size: 20px;
 }
 
-.middle_division .header fieldset aside .active {
+.middle_division .nav fieldset aside .active {
     background-color: #d2f0ff;
 }
 
-.middle_division .header fieldset img {
+.middle_division .nav fieldset img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 
-.middle_division .header fieldset .dot {
+.middle_division .nav fieldset .dot {
     position: absolute;
     bottom: 5px;
     right: 2px;
@@ -636,6 +634,85 @@ main .right_division {
     margin: 2vh auto;
 }
 
+/*menu mobile*/
+.nav {
+    width: 100%;
+    background-color: #000028;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav > .nav-header {
+    flex: 0.95;
+    padding-left: 1rem;
+  }
+  .nav > .nav-header > .nav-title {
+    font-size: 22px;
+    color: #fff;
+  }
+  .nav > .nav-list {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav > .nav-list > li {
+    list-style-type: none;
+  }
+  .nav > .nav-list > li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+  }
+  .nav > #nav-check {
+      display: none;
+  }
+  @media (max-width: 480px) {
+    .nav {
+      padding: 1rem;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-top: 0.2rem;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+    }
+    .nav .nav-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #f41919;
+    }
+    .nav > .nav-list {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      background-color: #000028;
+      height: 0;
+      transition: all 0.3s ease-in;
+      top: 40px;
+      left: 0;
+      overflow: hidden;
+    }
+    .nav > .nav-list > li {
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+    .nav > #nav-check:checked ~ .nav-list {
+      height: calc(150vh - 50px);
+    }
+  }
 
 
 /*post card*/
@@ -1103,43 +1180,5 @@ small {
     .blog-grid {
         flex-direction: row;
     }
-
-}
-
-/*<500px S*/
-@media only screen and (max-width: 600px) {
-
-
-    nav .nav-mobile-menu {
-        display: block;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    nav.mobile-menu {
-        margin-bottom: 200px;
-    }
-
-    nav.mobile-menu ul {
-        display: block;
-        position: absolute;
-        top: 100%;
-        width: 100%;
-        flex-direction: column;
-        row-gap: 10px;
-        background: white;
-        padding: 20px 0px;
-    }
-
-    nav ul li {
-        width: 100%;
-    }
-
-    nav ul li:last-child {
-        margin-left: unset;
-    }
-
 
 }
