@@ -640,7 +640,8 @@ main .right_division {
     background-color: #000028;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    border-radius: 3px;
   }
   .nav > .nav-header {
     flex: 0.95;
@@ -665,7 +666,7 @@ main .right_division {
   .nav > #nav-check {
       display: none;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     .nav {
       padding: 1rem;
     }
@@ -705,7 +706,7 @@ main .right_division {
       margin-top: 1.5rem;
     }
     .nav > #nav-check:checked ~ .nav-list {
-      height: calc(150vh - 50px);
+      height: calc(60vh - 50px);
     }
   }
 
@@ -935,6 +936,10 @@ small {
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
+}
+.footer-col ul{
+    padding: 0;
+    list-style-type: none;
 }
 
 .footer-col h4::before {
