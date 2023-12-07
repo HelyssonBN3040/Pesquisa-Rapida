@@ -917,7 +917,16 @@ small {
 .cont-text{
     text-align: justify;
 }
-
+.post_card .blog-img{
+    display: flex;
+    justify-content: center;
+}
+.post_card .blog-img img{
+    width: 100%;
+}
+.post_card h1{
+    font-size: 30px;
+}
 
 .footer-col {
     width: 25%;
