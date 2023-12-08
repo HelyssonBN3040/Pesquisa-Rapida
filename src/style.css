@@ -198,6 +198,13 @@ label input {
     justify-content: center;
     align-items: center;
 }
+.slider-post {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
 
  .img-logo {
     width: 20px;
@@ -707,6 +714,17 @@ main .right_division {
 
 
 /*post card*/
+.card-post {
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(1, 1, 1, 0.1);
+    margin: 2vh auto;
+    padding: 2vh 2.5vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .post_card {
     background-color: var(--white);
     border-radius: 5px;
@@ -923,6 +941,9 @@ small {
 }
 .post_card .blog-img img{
     width: 100%;
+}
+.post_card .post-img img{
+    width: 300px;
 }
 .post_card h1{
     font-size: 30px;
@@ -1194,6 +1215,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 .input{
     color: #000;
@@ -1218,7 +1240,6 @@ textarea{
 
 }
 .container-2{
-    height: 500px;
     display: flex;
     justify-content: center;
 }
