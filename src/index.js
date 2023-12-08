@@ -26,3 +26,22 @@ prev.addEventListener('click', () => {
 next.addEventListener('click', () => {
     slider.scrollLeft += 300
 })
+
+//Validação de Formulário
+function validarFormulario() {
+    // Obter os valores dos campos do formulário
+    var nome = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var subject = document.getElementById('subject').value;
+    var message = document.getElementById('message').value;
+
+    
+    // Verificar se todos os campos estão preenchidos
+    if (nome === '' || email === '' || subject === '' || message === '') {
+      // Se algum campo estiver vazio, exibir uma mensagem de erro
+      window.alert('Por favor, preencha todos os campos corretamente.');
+    } else {
+      // Se todos os campos estiverem preenchidos, exibir o alerta
+      window.alert('Mensagem Enviada com sucesso!');
+    }
+  }

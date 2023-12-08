@@ -52,13 +52,12 @@
                     <input type="hidden" name="_next" value="https://pesquiseimperio.com.br/index.html"
                         value="Recebemos sua mensagem, verifique sua caixa de spam e logo responderemos!">
                     <input type="hidden" name="_captcha" value="false">
-                    <input class="edit input" type="text" name="name" placeholder="Nome Completo">
-                    <input class="edit input" type="email" name="email" placeholder="E-mail">
-                    <input class="edit input" type="text" name="subject" placeholder="Assunto">
-                    <textarea class="edit" name="message" placeholder="Mensagem"></textarea>
+                    <input class="edit input" type="text" id="name" name="name" placeholder="Nome Completo *" required>
+                    <input class="edit input" type="email" id="email" name="email" placeholder="E-mail *" required>
+                    <input class="edit input" type="text" id="subject" name="subject" placeholder="Assunto *" required>
+                    <textarea class="edit" name="message" id="message" placeholder="Mensagem *" required></textarea>
 
-                    <button class="edit button" type="submit"
-                        onclick="alert('Mensagem Enviada com Sucesso!')">Enviar</button>
+                    <button class="edit button" type="submit" onclick="validarFormulario()">Enviar</button>
                 </form>
             </section>
         </div>
