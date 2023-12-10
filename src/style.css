@@ -173,11 +173,6 @@ label input {
     display: flex;
 }
 
-.blog-grid .control img {
-    width: 20px;
-
-}
-
 .blog-grid .control {
     display: flex;
     justify-content: center;
@@ -941,9 +936,7 @@ small {
 .post_card .blog-img img{
     width: 100%;
 }
-.post_card .post-img img{
-    width: 300px;
-}
+
 .post_card h1{
     font-size: 30px;
 }
@@ -1136,7 +1129,6 @@ small {
 }
 
 .blog-img img {
-    width: 300px;
     border-radius: 5px;
     margin: 10px 0;
 
