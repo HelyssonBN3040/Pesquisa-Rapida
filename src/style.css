@@ -932,9 +932,7 @@ small {
     display: flex;
     justify-content: center;
 }
-.post_card .blog-img img{
-    width: 100%;
-}
+
 
 .post_card h1{
     font-size: 30px;
