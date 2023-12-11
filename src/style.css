@@ -991,6 +991,7 @@ small {
     display: inline-block;
     height: 40px;
     width: 40px;
+    padding: 4px 0;
     border-radius: 50%;
     text-align: center;
     margin: 0 10px 10px 0;
