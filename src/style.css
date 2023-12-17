@@ -147,14 +147,13 @@ figure {
     margin: 0;
 }
 
-a,
 p,
 .btn {
-    font-size: 15px;
+    font-size: 35px;
 }
 
 p {
-    line-height: 1.9em;
+    line-height: 1.5em;
     color: var(--gray);
 }
 
@@ -177,6 +176,10 @@ h4,
 h5,
 h6 {
     margin: 0;
+    font-size: 35px;
+}
+a{
+    font-size: 17px;
 }
 
 label input {
