@@ -53,7 +53,7 @@ html {
 body {
     margin: 0;
     overflow-x: hidden;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 .search-box {
@@ -193,6 +193,7 @@ label input {
     justify-content: center;
     align-items: center;
 }
+
 .slider-post {
     display: flex;
     overflow: hidden;
@@ -333,7 +334,7 @@ label input {
     .blog-grid {
         flex-direction: row;
     }
-    
+
 
     .slider {
 
@@ -637,73 +638,85 @@ main .right_division {
     align-items: center;
     justify-content: center;
     border-radius: 3px;
-  }
-  .nav > .nav-header {
+}
+
+.nav>.nav-header {
     flex: 0.95;
     padding-left: 1rem;
-  }
-  .nav > .nav-header > .nav-title {
+}
+
+.nav>.nav-header>.nav-title {
     font-size: 22px;
     color: #fff;
-  }
-  .nav > .nav-list {
+}
+
+.nav>.nav-list {
     display: flex;
     gap: 2rem;
-  }
-  .nav > .nav-list > li {
+}
+
+.nav>.nav-list>li {
     list-style-type: none;
-  }
-  .nav > .nav-list > li a {
+}
+
+.nav>.nav-list>li a {
     text-decoration: none;
     color: #efefef;
     cursor: pointer;
-  }
-  .nav > #nav-check {
-      display: none;
-  }
-  @media (max-width: 500px) {
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+@media (max-width: 500px) {
     .nav {
-      padding: 1rem;
+        padding: 1rem;
     }
-    .nav > .nav-btn {
-      display: inline-block;
-      padding-top: 0.2rem;
+
+    .nav>.nav-btn {
+        display: inline-block;
+        padding-top: 0.2rem;
     }
-   
-    .nav .nav-btn{
+
+    .nav .nav-btn {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #ff6600;
-      cursor: pointer;
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #ff6600;
+        cursor: pointer;
 
     }
-    .nav > .nav-list {
 
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      width: 70%;
-      background-color: #000028;
-      height: 0;
-      transition: all 0.3s ease-in;
-      top: 90px;
-      left: 16px;
-      overflow: hidden;
+    .nav>.nav-list {
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        background-color: #000028;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 90px;
+        left: 16px;
+        overflow: hidden;
     }
-    .nav > .nav-list > li {
-      width: 100%;
-      margin-top: 1.5rem;
+
+    .nav>.nav-list>li {
+        width: 100%;
+        margin-top: 1.5rem;
     }
-    .nav > #nav-check:checked ~ .nav-list {
-      height: calc(60vh - 50px);
+
+    .nav>#nav-check:checked~.nav-list {
+        height: calc(60vh - 50px);
     }
-  }
+}
 
 
 /*post card*/
@@ -718,6 +731,7 @@ main .right_division {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .post_card {
     background-color: var(--white);
     border-radius: 5px;
@@ -925,16 +939,18 @@ small {
     flex-wrap: wrap;
     justify-content: center;
 }
-.cont-text{
+
+.cont-text {
     text-align: justify;
 }
-.post_card .blog-img{
+
+.post_card .blog-img {
     display: flex;
     justify-content: center;
 }
 
 
-.post_card h1{
+.post_card h1 {
     font-size: 30px;
 }
 
@@ -951,7 +967,8 @@ small {
     font-weight: 500;
     position: relative;
 }
-.footer-col ul{
+
+.footer-col ul {
     padding: 0;
     list-style-type: none;
 }
@@ -1169,7 +1186,7 @@ small {
 }
 
 @media only screen and (max-width: 1150px) {
-   
+
     section {
         flex-direction: column;
         align-items: center;
@@ -1198,7 +1215,7 @@ small {
 }
 
 /*edition page op-sug*/
-form{
+form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1206,7 +1223,8 @@ form{
     align-items: center;
     text-align: justify;
 }
-.input{
+
+.input {
     color: #000;
     width: 550px;
     height: 40px;
@@ -1214,25 +1232,29 @@ form{
     border-radius: 10px;
 
 }
-.input:hover{
+
+.input:hover {
     border: 1px solid black;
 }
-textarea{
+
+textarea {
     width: 550px;
     height: 100px;
     border: none;
 }
 
-.edit{
+.edit {
     margin: 15px 0;
     padding: 10px;
 
 }
-.container-2{
+
+.container-2 {
     display: flex;
     justify-content: center;
 }
-.button{
+
+.button {
     width: 100px;
     height: 40px;
     border: none;
@@ -1241,15 +1263,23 @@ textarea{
     color: white;
     border-radius: 10px;
 }
-.button:hover{
-    background-color:#ff6600;
+.container .padding_1x .button-rosa{
+    height: 100px;
+    width: 200px;
+    background-color: #000028;
 
 }
-@media (max-width: 500px){
-    .input{
+.button:hover {
+    background-color: #ff6600;
+
+}
+
+@media (max-width: 500px) {
+    .input {
         width: 100%;
     }
-    textarea{
+
+    textarea {
         width: 100%;
     }
 }
