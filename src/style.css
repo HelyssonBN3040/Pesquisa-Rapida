@@ -151,7 +151,7 @@ figure {
 p {
     line-height: 1.5em;
     color: var(--gray);
-    font-size: 35px;
+    font-size: 23px;
 }
 
 a,
@@ -173,9 +173,10 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-size: 35px;
 }
-
+h4{
+    font-size: 25px;
+}
 
 label input {
     display: none;
@@ -1167,7 +1168,7 @@ small {
 
 }
 .title-art{
-    font-size: 50px;
+    font-size: 28px;
     text-align:start;
     font-weight: bold;
 }
