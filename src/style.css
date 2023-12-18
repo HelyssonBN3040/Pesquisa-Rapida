@@ -131,6 +131,8 @@ a {
     width: 100%;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 a,
@@ -956,11 +958,10 @@ small {
     text-align: justify;
 }
 
-.post_card .blog-img-art {
+.blog-img-art img {
     display: flex;
     justify-content: center;
     width:100%;
-    height: 300px;
 }
 
 
@@ -1162,10 +1163,9 @@ small {
     font-weight: bold;
 }
 .blog-img img {
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 10px 0;
-    height: 35vh;
-
+    height: auto;
 }
 
 .blog-author-img img {
@@ -1266,10 +1266,9 @@ textarea {
 .lista-priv{
     text-align: justify;
     margin: 10px 0;
-    font-size: 20px;
 }
 ul{
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .edit {
     margin: 15px 0;
