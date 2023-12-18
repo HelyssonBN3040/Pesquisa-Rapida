@@ -1263,7 +1263,14 @@ textarea {
     border: none;
     background-color:#f1f1f1;
 }
-
+.lista-priv{
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 20px;
+}
+ul{
+    padding: 0 20px;
+}
 .edit {
     margin: 15px 0;
     padding: 10px;
