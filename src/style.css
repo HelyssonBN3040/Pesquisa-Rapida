@@ -209,9 +209,8 @@ label input {
 
 .slider {
     display: flex;
-    width: 1000px;
+    flex-direction: row;
     overflow: hidden;
-    justify-content: center;
     align-items: center;
 }
 
@@ -346,23 +345,9 @@ label input {
     transform: translate(-50%, -50%);
 }
 
-
-
-
-
-
 @media (max-width:920px) {
     .blog-grid {
         flex-direction: row;
-    }
-
-
-    .slider {
-
-        width: 500px;
-        overflow: hidden;
-        justify-content: center;
-        align-items: center;
     }
 
     .flex {
@@ -651,6 +636,10 @@ main .right_division {
 
 .middle_division .container {
     margin: 4vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 /*menu mobile*/
@@ -692,7 +681,7 @@ main .right_division {
     display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 770px) {
     .nav {
         padding: 1rem;
     }
@@ -967,7 +956,7 @@ small {
     text-align: justify;
 }
 
-.post_card .blog-img {
+.post_card .blog-img-art {
     display: flex;
     justify-content: center;
     width:100%;
@@ -1175,6 +1164,7 @@ small {
 .blog-img img {
     border-radius: 5px;
     margin: 10px 0;
+    height: 35vh;
 
 }
 
@@ -1255,6 +1245,7 @@ form {
 
 .input {
     color: #000;
+    background-color:#f1f1f1;
     width: 550px;
     height: 40px;
     border: none;
@@ -1270,6 +1261,7 @@ textarea {
     width: 550px;
     height: 100px;
     border: none;
+    background-color:#f1f1f1;
 }
 
 .edit {
@@ -1298,7 +1290,7 @@ textarea {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 660px) {
     .input {
         width: 100%;
     }

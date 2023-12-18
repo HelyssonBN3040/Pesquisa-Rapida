@@ -20,11 +20,11 @@ const next = document.querySelector('.next')
 const slider = document.querySelector('.slider')
 
 prev.addEventListener('click', () => {
-    slider.scrollLeft -= 300
+    slider.scrollLeft -= 370
 })
 
 next.addEventListener('click', () => {
-    slider.scrollLeft += 300
+    slider.scrollLeft += 350
 })
 
 //Validação de Formulário
