@@ -115,6 +115,7 @@ a {
     width: fit-content;
     width: -webkit-fit-content;
     width: -moz-fit-content;
+    font-size: 20px;
 }
 .search-box:hover>.search-txt {
     width: 90px;
@@ -147,14 +148,10 @@ figure {
     margin: 0;
 }
 
-p,
-.btn {
-    font-size: 35px;
-}
-
 p {
     line-height: 1.5em;
     color: var(--gray);
+    font-size: 35px;
 }
 
 a,
@@ -178,9 +175,7 @@ h6 {
     margin: 0;
     font-size: 35px;
 }
-a{
-    font-size: 17px;
-}
+
 
 label input {
     display: none;
@@ -396,14 +391,16 @@ label input {
         padding: 0.5rem 1rem;
     }
 
-    a,
-    p,
-    .btn {
-        font-size: 12px;
+   
+    p{
+        text-align: justify;
     }
 
     .title_header {
         width: 100%;
+    }
+    h4{
+        text-align: justify;
     }
 }
 
@@ -566,7 +563,7 @@ main .right_division {
         font-size: 10px;
     }
 
-    .block_2 li .sub_title a,
+    .block_2 li .sub_title ,
     .block_2 .sub_title mark {
         font-size: 12px;
     }
