@@ -184,7 +184,10 @@ label input {
     display: none;
 }
 
-
+.ads{
+    display: flex;
+    justify-content: center;
+}
 
 .title,
 .sub_title {
