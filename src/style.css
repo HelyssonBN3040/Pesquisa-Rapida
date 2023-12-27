@@ -1168,9 +1168,9 @@ small {
 
 }
 .title-art{
-    font-size: 28px;
     text-align:start;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 44px;
 }
 .blog-img img {
     border-radius: 10px;
@@ -1182,7 +1182,15 @@ small {
     width: 50px;
 
 }
-
+.text-artigo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+.text-artigo h4{   
+    font-size: 44px; 
+}
 .blog .blog-content .blog-details {
     display: flex;
     align-items: center;
